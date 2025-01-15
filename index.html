@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mindanao</title>
+</head>
+<style>
+    * {
+      box-sizing: border-box;
+    }
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header style */
+  header {
+    background-color:#606C38;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+  }
+  
+  /* columns/boxes*/
+  nav {
+    flex: 1;
+    padding: 10px;
+    position: relative;
+    background-size: cover;
+  } 
+
+  nav img {
+    width: 100%; 
+    height: auto; 
+    margin-bottom: 10px; 
+  }
+
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+
+  .content {
+    flex: 2;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  
+  article {
+    float: left;
+    padding: 20px;
+    width: 70%;
+    background-color: #FEFAE0;
+    height: 100vh; 
+  }
+
+  
+  section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.images-column {
+    width: 30%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 15px;
+}
+
+.images-column img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+        }
+  
+  /* Footer style*/
+  footer {
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
+    color: white;
+  }
+  
+  /* Responsive layout - on small screens */
+  @media (max-width: 600px) {
+    nav, article {
+      width: 100%;
+      height: auto;
+    }
+  }
+  </style>
+  </head>
+
+  <body>
+    <header>
+      <h2>Mindanao</h2>
+      <p>Welcome to my homeland, the Mindanao. Let's discover together the underrated tourist attractions and the nice people in the Philippines. </p>
+    </header>
+    
+    <section>
+      <nav>
+        <ul>
+          <li><img src="./images/mindanao1.jpg" alt="Mindanao Image 1"></li>
+          <li><img src="./images/min4.jpg" alt="National animal"></li>
+      </ul>
+      </nav>
+      <div class="content">
+      <article>
+        <h1>Mindanao</h1>
+        <p>Mindanao is the second-largest island in the Philippines, after Luzon, and seventh-most popular island in the world. 
+            It is located in the southern region of the archipelago. According to the 2020 census, Mindanao had a population of 26,252,442, 
+            while the entire island group had an estimated population of 27,021,036. </p>
+        <p>Did you know that Mindanao has several tribes, with the number of 18 major Lumad ethnoliguistic groupings, such as the Bagobo, 
+            Banwaon, Blaan, Bukidnon, Dibabawon, Higaonon, Mamanwa, Mandaya, Mangguwangan, Manobo, Mansaka, Matigsalug, Subanen, Tagakaolo, 
+            Talaandig, Tboli, Teduray, and Ubo. Each Lumad tribes has their own dialects. The first dialect in Mindanao is Bisaya, 
+            second-largest dialect in the Philippines, after Tagalog; the national language.</p>
+        <p>Natural resources:</p>
+          <li>Lead</li>
+          <li>Zinc</li>
+          <li>Iron</li>
+          <li>Ore</li>
+          <li>Copper</li>
+          <li>Chromite</li>
+          <li>Magnetite</li>
+          <li>Gold</li>
+
+        <p>With one-third of its land area devoted to agriculture, the island has been tagged as the country's food basket. 
+          The majority of the country's total production of high-value commodities, such as rubber, pineapple, banana and coffee, 
+          comes from Mindanao.</p>
+
+        <p>Mindanao is renowned for its stunning natural beauty, diverse cultures, and endless adventure possibilities. 
+          This captivating region boasts iconic sites like Mount Apo and pristine beaches in Siargao. 
+          It's a melting pot of traditions and dances, from the T'boli beadwork to Maranao celebrations.</p>
+      </article>
+
+      <div class="images-column">
+        <img src="./images/min6.jpg" alt="Mindanao Image 2">
+        <img src="./images/min9.jpg" alt="Mindanao Image 3">
+        <img src="./images/tinago_falls.jpeg" alt="Mindanao Image 4">
+
+    </div>
+    </div>
+    </section>
+    
+    <footer>
+      <p>Disclaimer: I don't own the photos.</p>
+    </footer>
+    
+    </body>
+</html>
