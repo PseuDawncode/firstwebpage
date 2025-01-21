@@ -11,9 +11,6 @@ body {
 header {
   background-color:#606C38;
   padding: 30px;
-  text-align: center;
-  font-size: 35px;
-  color: white;
 }
 
 /* columns/boxes*/
@@ -45,6 +42,9 @@ nav ul {
 h2 {
     color: bisque !important;
     color: red;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 800; 
 }
 
 #first-paragraph {
@@ -57,7 +57,10 @@ h2 {
 
 #title {
    color: yellow;
-   color: whitesmoke; 
+   color: whitesmoke;
+   text-align: center;
+   font-size: 30px;
+   font-style: italic;
 }
 
 
